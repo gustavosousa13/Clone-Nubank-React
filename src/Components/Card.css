@@ -1,0 +1,45 @@
+
+.box1{
+ margin-left: 850px;
+ margin-top:0px;
+ 
+}
+.btn{
+    width: 280px;
+    height: 45px;
+    position: absolute;
+    margin-top: 180px;
+    color: rgba(17, 17, 17, 0.2);
+    background: rgba(17, 17, 17, 0.1);
+    cursor: not-allowed;
+    border-radius: 6.25rem;
+    margin-left: -280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.titulo2{
+    position: absolute;
+    font-size: 20px;
+    margin-left: px;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .box1 {
+      position: relative; /* Altera para posição relativa */
+      margin-top: 40px; /* Espaçamento do topo */
+      margin-left: 100%; /* Centraliza horizontalmente */
+      margin-right: auto;
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 100px;
+    }
+}

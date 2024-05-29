@@ -1,0 +1,74 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height:1.2;
+    margin-left: 30px;
+   
+  
+}
+
+.titulo1{
+    font-size: 48px;
+    color: rgb(130, 10, 209);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+    letter-spacing:-2px ;
+    line-height:; 
+    margin-left: 0px;
+}
+.subtitulo1{
+    font-size: 24px;
+    margin: 16px 0px;
+    color: rgb(17, 17, 17);
+    white-space: pre-line;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.saibamais{
+    font-size: 18px;
+    margin: 0px 0px 24px;
+    color: rgb(130, 10, 209);
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.imagem3{
+    width: 514px;
+    height: 351px;;
+    margin-right: 30px;
+}
+.divpai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divpai a{
+    font-size: 18px;
+}
+
+
+:hover .divpai a{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px ) {
+    .imagem3{
+        height:250px;
+        width: 360px;
+        margin-left: -180px;
+    }
+           
+    .div{
+        margin-left: 20px;
+        margin-right: -120px;
+        margin-top: 250px;
+        }
+        
+}

@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .block {
+    flex: 1; 
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 60px;
+  }
+  
+  .block img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .ancora1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .ancora2{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .paragrafo1{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .paragrafo2{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .container .btn2{
+    color: white;
+    background-color: transparent ;
+    border: none;
+  }
+  .btn3{
+    color: white;
+    background-color: transparent ;
+    border: none;
+  }
+
+  @media screen and (max-width:600px) {
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      flex-direction: column;
+    }
+  }

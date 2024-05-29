@@ -1,0 +1,173 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+html, body {
+    width: 100%;
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+}
+
+.imagem1 {
+    margin-top: -100px;
+}
+
+.cover1 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 600px;
+}
+
+.tituloprincipal {
+    font-weight: 500;
+    z-index: 10;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 180px;
+    margin-right: 110px;
+ 
+}
+
+.titulo1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    margin-right: 40%;
+    margin-left: 100px;
+    
+}
+
+.sub {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-right: 35%;
+    margin-left: 100px;
+}
+
+.Cards1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 500px;
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.Card {
+    position: absolute;
+
+}
+
+.titleandtextsection {
+    box-sizing: border-box;
+    height: 465px;
+    width: 100vw;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+@media screen and (max-width: 600px) {
+    .tituloprincipal{
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo1{
+      font-size: 12px;
+      margin-right: 10px;
+    }
+       
+
+    }
+@media screen and (max-width: 800px) {
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    }
+.Card{
+    position: absolute;
+    margin-right: 900px;
+    margin-left: -30px;
+    
+}
+  .Cards1 {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 500px;
+    width: 350vw;;
+    box-sizing: border-box;
+    background-color: white;
+  }
+
+  .Card {
+    position: relative;
+    margin-top: 170px;
+    margin-bottom: -40px;
+    margin-left: -50px;
+     }
+
+  .titleandtextsection {
+    height: 800px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .ultravioleta{
+    height: 600px;
+    margin-top: 30px;
+    background-color: rgb(247, 241, 241);
+
+  }
+.shopping{
+    margin-top: 500px;
+ 
+}
+  .cartaocredito{
+    height: 1000px;
+    margin-top: -230px;
+  }
+  .tituloprincipal {
+  margin: -800px;
+  margin-right: -1px;
+  margin-left: 30px;
+  
+}
+  .moreproduct {
+display: block;
+ display: none;
+  }
+  .card3{
+    diplay:block;
+    display: none;
+  }
+  .conta{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .footer{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+   margin-left: 0px;
+   height: 1700px;
+   background-color: black;
+   margin-top: 150px;
+  }
+}
+

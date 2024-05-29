@@ -1,0 +1,45 @@
+.card-section {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 300px;
+    
+    
+  }
+  
+  .card-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    flex: 0 0 calc(25% - 10px);
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 70px;
+  }
+  
+  .card-container.active {
+    transform: translateX(calc(-20% * var(--startIndex)));
+  }
+  .navigation-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    }
+
+  @media screen and (max-width: 600px){
+    .card-section{
+      display: flex;
+      overflow: hidden;
+      justify-content: space-between;
+      width: max-content;
+      background-color: white;
+    }
+    .navigation-buttons{
+      position: absolute;
+      margin-left: 150px;
+    }
+    
+  }
